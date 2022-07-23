@@ -30,7 +30,7 @@ app.use('/api/orders', orderRouter);
 
 // for heroku
 const __dirname = path.resolve();
-app.use(express.static(path.join(_dirname, '/frontend/build')));
+app.use(express.static(path.join(__dirname, '/frontend/build')));
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
 );
