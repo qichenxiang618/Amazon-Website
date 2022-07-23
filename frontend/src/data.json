@@ -1,0 +1,12 @@
+{
+  "name": "Apple TV",
+  "slug": "tv",
+  "category": "Tv",
+  "image": "/images/appletv.jpg",
+  "price": 399,
+  "countInStock": 20,
+  "brand": "Apple",
+  "rating": 3.5,
+  "numReviews": 8,
+  "description": "Best TV box"
+}
