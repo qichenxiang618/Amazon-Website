@@ -34,7 +34,7 @@ function HomeScreen() {
   return (
     <div>
       <Helmet>
-        <title>Amazon</title>
+        <title>Amazon.com</title>
       </Helmet>
       <div
         id="carouselExampleControls"
@@ -71,7 +71,7 @@ function HomeScreen() {
         </button>
       </div>
 
-      <h1>Featured Products</h1>
+      <h1>Featured Product</h1>
       <div className="products">
         <Row>
           {products.map((product) => (
