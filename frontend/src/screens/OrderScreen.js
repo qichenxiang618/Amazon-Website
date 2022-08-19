@@ -25,6 +25,7 @@ function reducer(state, action) {
       return state;
   }
 }
+
 export default function OrderScreen() {
   const { state } = useContext(Store);
   const { userInfo } = state;
@@ -59,6 +60,7 @@ export default function OrderScreen() {
       fetchOrder();
     }
   }, [order, userInfo, orderId, navigate]);
+
   return loading ? (
     <LoadingBox></LoadingBox>
   ) : error ? (

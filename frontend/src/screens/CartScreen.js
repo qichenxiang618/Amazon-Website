@@ -102,6 +102,7 @@ export default function CartScreen() {
             </ListGroup>
           )}
         </Col>
+
         <Col md={4}>
           <Card>
             <Card.Body>
