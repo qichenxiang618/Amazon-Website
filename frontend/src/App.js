@@ -32,6 +32,7 @@ function App() {
     localStorage.removeItem('paymentMethod');
     window.location.href = '/signin';
   };
+
   return (
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
