@@ -1,8 +1,11 @@
-# MERN AMAZONA
+# Amazon Website
 
 # Lessons
 
 1. Introduction
+   • Developed a dynamic and interactive Amazon website with front-end, back-end and database and published to the internet.
+   • Designed multiple screens allowing users to browse products, check product detail, add product to shopping cart, edit shopping cart, enter shipping address, select payment method, place order, check order history, edit user profile, sign up, sign in and sign out.
+
 2. Install Tools
 3. Create React App
 4. Create Git Repository
