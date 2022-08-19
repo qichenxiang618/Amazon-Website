@@ -2,29 +2,45 @@
 
 # Introduction
 
-1. Developed a dynamic and interactive Amazon website with front-end, back-end and database and published to the internet.
-2. Designed multiple screens allowing users to browse products, check product detail, add product to shopping cart, edit shopping cart, enter shipping address, select payment method, place order, check order history, edit user profile, sign up, sign in and sign out.
+- Developed a dynamic and interactive Amazon website with front-end, back-end and database and published to the internet.
+- Designed multiple screens allowing users to browse products, check product detail, add product to shopping cart, edit shopping cart, enter shipping address, select payment method, place order, check order history, edit user profile, sign up, sign in and sign out.
 
-# Languages
+# Languages/Framworks/Libraries
 
-1. Front-end: JavaScript
-2. Back-end: Node.js
+- Front-end: JavaScript, React, Bootstrap
+- Back-end: Node.js, Express
+- Database: MongoDB, Mongoose
 
-# Frameworks and Packages
+# Front-end React Pages
 
-1. Front-end: React, Bootstrap
-2. Back-end: Express
+- CartScreen.js
+- HomeScreen.js
+- OrderHistoryScreen.js
+- OrderScreen.js
+- PaymentMethodScreen.js
+- PlaceOrderScreen.js
+- ProductScreen.js
+- ProfileScreen.js
+- ShippingAddressScreen.js
+- SigninScreen.js
+- SignupScreen.js
 
-# Pages
+# Front-end React Components
 
-- CartScreen
-- HomeScreen
-- OrderHistoryScreen
-- OrderScreen
-- PaymentMethodScreen
-- PlaceOrderScreen
-- ProductScreen
-- ProfileScreen
-- ShippingAddressScreen
-- SigninScreen
-- SignupScreen
+- CheckoutSteps.js
+- LoadingBox.js
+- MessageBox.js
+- Product.js
+- Rating.js
+
+# Backend Express Routes
+
+- orderRoutes.js
+- productRoutes.js
+- userRoutes.js
+
+# Backend MongoDB Models
+
+- orderModel.js
+- productModel.js
+- userModel.js
