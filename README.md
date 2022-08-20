@@ -8,9 +8,16 @@
 
 # Languages/Framworks/Libraries
 
-- Front-end: JavaScript, React, Bootstrap
+- Front-end: HTML, CSS, JavaScript, React, Bootstrap
 - Back-end: Node.js, Express
 - Database: MongoDB, Mongoose
+
+# React Hooks
+
+- useState
+- useReducer
+- useContext
+- useEffect
 
 # Front-end React Pages
 
